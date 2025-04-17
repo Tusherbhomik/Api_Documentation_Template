@@ -6,13 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "out": "next build && next export && echo. > out\\.nojekyll",
-    "predeploy": "npm run out",
-    "deploy": "gh-pages -d out --dotfiles"
+    "lint": "next lint"
   },
-  "homepage": "https://github.com/Tusherbhomik/Api_Documentation_Template",
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.4",
     "@radix-ui/react-dialog": "^1.1.7",
